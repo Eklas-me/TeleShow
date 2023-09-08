@@ -97,16 +97,16 @@ $(function () {
     }
   });
 
-  $(".downloadBtn").on("click", function (event) {
-    event.preventDefault();
+  // $(".downloadBtn").on("click", function (event) {
+  //   event.preventDefault();
 
-    $("html, body").animate(
-      {
-        scrollTop: 0,
-      },
-      1500
-    );
-  });
+  //   $("html, body").animate(
+  //     {
+  //       scrollTop: 0,
+  //     },
+  //     1500
+  //   );
+  // });
 
   //===== Svg
 
